@@ -32,7 +32,6 @@ function validateModel(posts) {
     }
 
 
-
     if (posts.description.trim().length > 1000) {
         errors.description = "description can't be longer than 1000"
         isValid = false;

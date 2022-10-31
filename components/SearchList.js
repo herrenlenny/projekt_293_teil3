@@ -28,7 +28,8 @@ export default function SearchList(props) {
         <>
             <div className={styles.divBackButtonInput}>
                 <div className={styles.buttonReverseAndSearchInput}>
-                    <input className={styles.inputSearch} placeholder="search..." value={searchFilter} onChange={handleChange}/>
+                    <input className={styles.inputSearch} placeholder="search..." value={searchFilter}
+                           onChange={handleChange}/>
                     <button className={styles.buttonReverse} onClick={() => setPosts([...posts.reverse()])}>⇅</button>
                 </div>
             </div>
@@ -68,7 +69,6 @@ export default function SearchList(props) {
                     }
                 )}
             </div>
-
 
 
         </>

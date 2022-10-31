@@ -10,16 +10,17 @@
     background-color: black;
 }
 
-.head{
+.head {
     background-color: black;
 }
 
-.menu{
+.menu {
     background-color: black;
 
 
 }
-.menuLinks{
+
+.menuLinks {
     width: 80%;
     text-align: center;
     display: flex;
@@ -28,7 +29,7 @@
     margin: 0 auto;
 }
 
-.menu a{
+.menu a {
     font-size: 70%;
     color: white !important;
 }
@@ -42,19 +43,20 @@
 .header > a:hover {
     text-decoration: none;
 }
+
 @media only screen and (min-width: 500px) {
     .menuLinks {
         flex-direction: row;
         width: 60%;
     }
 
-    .menu a{
+    .menu a {
         font-size: 100%;
     }
 }
 
 @media only screen and (min-width: 600px) {
-    .header{
+    .header {
         font-size: 2em;
     }
 }

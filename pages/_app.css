@@ -40,7 +40,7 @@ button, .button {
     text-align: center;
 }
 
-Link{
+Link {
     color: white;
 }
 
@@ -55,7 +55,7 @@ footer {
     height: 8%;
 }
 
-footer div{
+footer div {
     margin: 0 auto;
     flex-direction: column;
     width: 60%;
@@ -63,17 +63,19 @@ footer div{
     justify-content: space-between;
 }
 
-footer a{
+footer a {
     color: white !important;
     text-decoration: underline;
     font-size: 100%;
 }
+
 @media (min-width: 600px) {
-    footer div{
+    footer div {
         flex-direction: row;
     }
 }
-@media (min-width: 1200px){
+
+@media (min-width: 1200px) {
     .page {
         display: flex;
         justify-content: center;

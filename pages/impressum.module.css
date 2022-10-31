@@ -1,4 +1,4 @@
-.impressum{
+.impressum {
     margin: 0 auto;
     border: solid black;
     width: 60%;
@@ -6,33 +6,36 @@
     padding: 1em;
 }
 
-.impressum p{
+.impressum p {
     font-size: 60%;
 }
 
 @media only screen and (min-width: 250px) {
-    .impressum p{
+    .impressum p {
         font-size: 60%;
     }
-    .impressum{
+
+    .impressum {
         width: 80%;
     }
 }
 
 @media only screen and (min-width: 500px) {
-    .impressum p{
+    .impressum p {
         font-size: 80%;
     }
-    .impressum{
+
+    .impressum {
         width: 80%;
     }
 }
 
 @media only screen and (min-width: 800px) {
-    .impressum p{
+    .impressum p {
         font-size: 100%;
     }
-    .impressum{
+
+    .impressum {
         width: 60%;
     }
 }

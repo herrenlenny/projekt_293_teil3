@@ -43,17 +43,18 @@
     width: 60%;
     margin: 0 auto 2em auto;
 }
+
 .article {
     height: 100%;
     width: 80%;
     padding: 2em;
 }
 
-.deleteLink{
+.deleteLink {
     font-size: 0.7em;
 }
 
-.backLink{
+.backLink {
     font-size: 0.7em;
 }
 
@@ -70,11 +71,12 @@
     .article h2 {
         font-size: 1.1em;
     }
-    .deleteLink{
+
+    .deleteLink {
         font-size: 1em;
     }
 
-    .backLink{
+    .backLink {
         font-size: 1em;
     }
 
@@ -93,11 +95,11 @@
             font-size: 1.3em;
         }
 
-        .deleteLink{
+        .deleteLink {
             font-size: 1.3em;
         }
 
-        .backLink{
+        .backLink {
             font-size: 1.3em;
         }
 
@@ -117,11 +119,11 @@
             font-size: 1.5em;
         }
 
-        .deleteLink{
+        .deleteLink {
             font-size: 1.5em;
         }
 
-        .backLink{
+        .backLink {
             font-size: 1.5em;
         }
 

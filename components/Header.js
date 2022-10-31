@@ -1,4 +1,5 @@
 import styles from "./Header.module.css"
+import Link from 'next/link'
 
 export default function Header({children}) {
     return (
@@ -8,15 +9,12 @@ export default function Header({children}) {
             </header>
             <div className={styles.menu}>
                 <div className={styles.menuLinks}>
-                    {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
-                    <a href="/posts/create">Create a Post</a>
-                    <a href="/employees">Employees</a>
-                    {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
-                    <a href="/impressum">Impressum</a>
+                    <Link href="/posts/create">Create a Post</Link>
+                    <Link href="/employees">Employees</Link>
+                    <Link href="/impressum">Impressum</Link>
                 </div>
 
             </div>
         </div>
-
-)
+    )
 }

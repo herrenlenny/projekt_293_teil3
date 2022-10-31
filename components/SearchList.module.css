@@ -67,7 +67,7 @@
     margin: auto 0;
 }
 
-.grid{
+.grid {
     width: 100%;
     margin-bottom: 10%;
     display: grid;
@@ -75,7 +75,7 @@
     justify-content: center;
 }
 
-.readMore{
+.readMore {
     position: absolute;
     bottom: 0;
 
@@ -132,6 +132,7 @@
         grid-template-areas:
     "post1 post2"
     }
+
     @media only screen and (min-width: 1000px) {
         .grid {
             grid-template-columns: 1fr 1fr 1fr;
